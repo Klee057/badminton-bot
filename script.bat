@@ -1,0 +1,1 @@
+cd %USERPROFILE%\bot\bot_code && echo ********IF IT IS 2359 THEN  && pause && node main.js

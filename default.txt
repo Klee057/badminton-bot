@@ -1,0 +1,27 @@
+***** WARNING!! ***** Do NOT remove COLONS or add/remove line(s) to this file. Save this file as same file name "CHANGE_HERE" once done
+=========================== FILL BELOW ============================
+1.Username ____________:klee057
+2.Pasword _____________:Tojable@111111
+3.Date(dd/mm/yyyy) ____:10/08/2022
+4.Start Time __________:0900
+5.Court no (1 digit) __:2
+6.2nd Start Time ______:0900
+7.2nd Court Num _______:3
+=========================== EXAMPLE BELOW ============================
+1.Username ____________:Example023
+2.Pasword _____________:Alpha^CureM0m$
+3.Date(dd/mm/yyyy) ____:11/08/2022
+4.Start Time __________:0900
+5.Court num (1 digit) _:2
+6.2nd Start Time ______:1000
+7.2nd Court Num _______:1
+
+Note: 2nd start time and court num are for backup. You may leave it blank if you dont wish to have a backup plan.
+
+1.Username ____________:ychua048
+2.Pasword _____________:J1aY0uSem1!
+3.Date(dd/mm/yyyy) ____:10/08/2022
+4.Start Time __________:0900
+5.Court num (1 digit) _:2
+6.2nd Start Time ______:1000
+7.2nd Court Num _______:1

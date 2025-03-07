@@ -1,0 +1,1 @@
+cd %USERPROFILE%\bot\bot_code && npm i node.js && npm i puppeteer && npm i alert && echo If no errors shown &&pause

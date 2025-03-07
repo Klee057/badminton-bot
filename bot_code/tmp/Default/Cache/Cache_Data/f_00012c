@@ -1,0 +1,1163 @@
+<META HTTP-EQUIV="Refresh" NAME="" CONTENT="120">
+<HTML>
+<HEAD>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+<TITLE>Online Booking System</TITLE>
+<link rel="preload" href="/graphics/css/assets/fonts/icomoon.ttf?pek60p" as="font" crossorigin="anonymous">
+
+
+<header class="site-header site-header--transparent">
+
+    <div class="site-header__body">
+      <div class="container">
+        <div class="site-logo"><img src="/graphics/css/assets/images/ntu-logo-sm.png" alt="NTU Logo"></div>
+      </div>
+    </div>
+  </header>
+<link rel="stylesheet" href="/graphics/css/assets/styles/main.css">
+
+    <SCRIPT LANGUAGE="JavaScript">
+    <!-- Begin
+    function StartNewWin(page) {
+    OpenWin = this.open(page, "CtrlWindow", "toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes");
+    }
+    // End -->
+    </SCRIPT>
+  
+<style >
+button, input[type=button], input[type=submit], input[type=reset] {
+  background-color: #d71440;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+  font: 14px Lato,Helvetica,Arial,sans-serif;
+}
+input[type=button]:hover {
+   background-color: #ea2f59;
+}
+input[type=submit]:hover {
+   background-color: #ea2f59;
+}
+input[type=reset]:hover {
+   background-color: #ea2f59;
+}
+
+</style>
+</HEAD>
+<BODY onLoad="window.focus()" topmargin="0">
+<div id="ui_staff_header_container">
+<div id="ui_header_title_container">
+<p id="ui_nav_right">
+<a class="helpbg" href="javascript:StartNewWin('https://wis.ntu.edu.sg/pls/webexe88/srce_smain_s.help')";>Help</a>
+</div>
+</div>
+<div id="ui_nav_container">
+<div id="ui_nav_innercontainer">
+<p id="ui_nav_left"></p>
+<p id="ui_nav_right">
+</p></div >
+</div>
+<div id="ui_body_container">
+<div id="top">
+    <div class="inner-layout">
+      <!-- Container Landing Single-->
+      <section class="eyd-section">
+        <div class="container">
+          <h1>Online Booking System</h1>
+          <h2>Status Of Facilities</h2>
+        </div>
+      </section>
+      <!-- End: Container Landing Single-->
+      <!-- Container Detail-->
+      <section class="eyd-section">
+       
+        <div class="container">
+          <!-- Test Content (BE Note: do not include this)-->
+          <div style="min-height: 800px; background: #f9f9f9; padding: 10px; color: #333;">
+<p>
+<link rel="StyleSheet" href="/graphics/po/dtree.css" type="text/css" />
+<script type="text/javascript" src="/graphics/po/dtree.js"></script>
+<style type="text/css" media="print"> .HideFirstCol {display:none;}</style>
+<table border="0" width="100%" height="100%" cellspacing="" cellpadding="2">
+<tr>
+<td class="HideFirstCol" valign="top" width="15%" bgcolor="#FBFAFA" style="border-right:1px solid #CBC8C8;">
+<div class="dtree">
+<script type="text/javascript">
+    d = new dTree("d");
+    d.add(0,-1,"");
+  
+d.add(1485,0,"Home","P_Menu?ele=AE98CCD59AB337F85143F12C21E798A5F19099885C1C92E408A32D8F84DC2B6B24F95928BD3179CFE9F9033E87B627AAFF776A2EE8CE80179AFA97AB56D5F529D1A32D2ABAF82E30","","","","","");
+d.add(1486,0,"Booking","","","","","","true");
+d.add(1488,1486,"Apply","P_Menu?ele=AE98CCD59AB337F8B19FB91BB8B9E85E62B792A003870AD09118CB6D5DC37534FFEFE90442AD630240D04A61355ADC885539D7DFA97931D9C7D50D2C1CA1EA2B2B05CF82F9CFD64B","","","","","");
+d.add(1489,1486,"Cancel","P_Menu?ele=8DDD764907476F9180A548D24F9AD889CF8868263D345ACD1F221B08247949DD678072CC5BAC244F2E9466D04FC398D02B9ED5774BC387F2B44319961AF8506402205F8FE8B589AE","","","","","");
+d.add(1487,0,"View","","","","","","true");
+d.add(1490,1487,"Next Available 2 weeks","srce_smain_s.srce$sel31_v_menu","","_blank","","","");
+d.add(1491,1487,"Booking History","P_Menu?ele=8DDD764907476F9180A548D24F9AD88990C38E21209CF5B020F1DB2D1975A88C63FC7E2548B92EC5BF3547104A80E2F35202928FA159AAE33EAB76BCEF18118D660BAF1AE7A858E9","","","","","");
+
+    document.write(d);
+    </script>
+  
+</div>
+</td>
+<td valign="top">
+<FORM ACTION="srce_sub1.srceb$sel32" METHOD="POST">
+<table align="center" width="90%">
+<tr><td width="6%">
+<font size=3>Facility :</font>
+</td><td>
+<font size=3><B>Badminton</B> (<B>@North Hill Function Hall</B>)</font>
+</td></tr>
+</table>
+<TABLE  Border ALIGN="center" width="90%" style="border-collapse:collapse;">
+<TR>
+<TD ALIGN="center" valign="center"><font size=3><b>Session<br>(hrs)</b></font></TD>
+<TD ALIGN="center"><font size=3><b>Courts /<br> Tables<br></b></font></TD>
+<TD ALIGN="center" valign="center" width="10%"><font size=3><b>09</b></font><Br><font size=3><b>Aug 2022</b></font><br><font size=3><b>(Tue)</b></font></TD>
+<TD ALIGN="center" valign="center" width="10%"><font size=3><b>10</b></font><Br><font size=3><b>Aug 2022</b></font><br><font size=3><b>(Wed)</b></font></TD>
+<TD ALIGN="center" valign="center" width="10%"><font size=3><b>11</b></font><Br><font size=3><b>Aug 2022</b></font><br><font size=3><b>(Thu)</b></font></TD>
+<TD ALIGN="center" valign="center" width="10%"><font size=3><b>12</b></font><Br><font size=3><b>Aug 2022</b></font><br><font size=3><b>(Fri)</b></font></TD>
+<TD ALIGN="center" valign="center" width="10%"><font size=3><b>13</b></font><Br><font size=3><b>Aug 2022</b></font><br><font size=3><b>(Sat)</b></font></TD>
+<TD ALIGN="center" valign="center" width="10%"><font size=3><b>14</b></font><Br><font size=3><b>Aug 2022</b></font><br><font size=3><b>(Sun)</b></font></TD>
+<TD ALIGN="center" valign="center" width="10%"><font size=3><b>15</b></font><Br><font size=3><b>Aug 2022</b></font><br><font size=3><b>(Mon)</b></font></TD>
+<TD ALIGN="center" valign="center" width="10%"><font size=3><b>16</b></font><Br><font size=3><b>Aug 2022</b></font><br><font size=3><b>(Tue)</b></font></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ROWSPAN="6">0800 - 0900</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR>
+<TD ROWSPAN="6">0900 - 1000</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXXX603G</TD>
+<TD ALIGN="center">XXXXX250B</TD>
+<TD ALIGN="center">XXXXX265H</TD>
+<TD ALIGN="center">XXXXX418C</TD>
+<TD ALIGN="center">XXXXX576F</TD>
+<TD ALIGN="center">XXXX3769</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR>
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX584L</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0210-Aug-20222"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="10-Aug-2022 (Wed)"></TD>
+<TD ALIGN="center">XXXXX251L</TD>
+<TD ALIGN="center">XXXXX748B</TD>
+<TD ALIGN="center">XXXX4124</TD>
+<TD ALIGN="center">XXXXX853B</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR>
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXXX525L</TD>
+<TD ALIGN="center">XXXXX465J</TD>
+<TD ALIGN="center">XXXXX151A</TD>
+<TD ALIGN="center">XXXXX944F</TD>
+<TD ALIGN="center">XXXX1501</TD>
+<TD ALIGN="center">XXXXX010H</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR>
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXXX747B</TD>
+<TD ALIGN="center">XXXX8891</TD>
+<TD ALIGN="center">XXXXX960H</TD>
+<TD ALIGN="center">XXXXX227K</TD>
+<TD ALIGN="center">XXXXX461F</TD>
+<TD ALIGN="center">XXXX8151</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR>
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXXX288F</TD>
+<TD ALIGN="center">XXXX6013</TD>
+<TD ALIGN="center">XXXXX611F</TD>
+<TD ALIGN="center">XXXXX481F</TD>
+<TD ALIGN="center">XXXXX974A</TD>
+<TD ALIGN="center">XXXXX710E</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR>
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXXX986K</TD>
+<TD ALIGN="center">XXXX1747</TD>
+<TD ALIGN="center">XXXXX857G</TD>
+<TD ALIGN="center">XXXXX883E</TD>
+<TD ALIGN="center">XXXX2821</TD>
+<TD ALIGN="center">XXXXX083J</TD>
+<TD ALIGN="center">CLOSED</TD>
+<TD ALIGN="center">CLOSED</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ROWSPAN="6">1000 - 1100</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXXX265E</TD>
+<TD ALIGN="center">XXXXX061L</TD>
+<TD ALIGN="center">XXXXX965B</TD>
+<TD ALIGN="center">XXXXX973F</TD>
+<TD ALIGN="center">XXXXX297J</TD>
+<TD ALIGN="center">XXXXX360E</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0115-Aug-20223"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center">XXXXX001C</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX872A</TD>
+<TD ALIGN="center">XXXXX977L</TD>
+<TD ALIGN="center">XXXXX151C</TD>
+<TD ALIGN="center">XXXXX564L</TD>
+<TD ALIGN="center">XXXX5663</TD>
+<TD ALIGN="center">XXXX3589</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0215-Aug-20223"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0216-Aug-20223"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXX1575</TD>
+<TD ALIGN="center">XXXXX645J</TD>
+<TD ALIGN="center">XXXXX756J</TD>
+<TD ALIGN="center">XXXX6028</TD>
+<TD ALIGN="center">XXXXX749E</TD>
+<TD ALIGN="center">XXXXX111C</TD>
+<TD ALIGN="center">XXXXX671A</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0316-Aug-20223"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXXX916H</TD>
+<TD ALIGN="center">XXXXX517J</TD>
+<TD ALIGN="center">XXXXX829G</TD>
+<TD ALIGN="center">XXXXX618B</TD>
+<TD ALIGN="center">XXXX1346</TD>
+<TD ALIGN="center">XXXXX097C</TD>
+<TD ALIGN="center">XXXXX899H</TD>
+<TD ALIGN="center">XXXX3533</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXXX052K</TD>
+<TD ALIGN="center">XXXX7664</TD>
+<TD ALIGN="center">XXXXX982H</TD>
+<TD ALIGN="center">XXXXX554H</TD>
+<TD ALIGN="center">XXXX3616</TD>
+<TD ALIGN="center">XXXXX492K</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0515-Aug-20223"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0516-Aug-20223"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXX4807</TD>
+<TD ALIGN="center">XXXX1869</TD>
+<TD ALIGN="center">XXXXX249B</TD>
+<TD ALIGN="center">XXXXX630F</TD>
+<TD ALIGN="center">XXXXX804G</TD>
+<TD ALIGN="center">XXXXX715J</TD>
+<TD ALIGN="center">XXXXX066H</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0616-Aug-20223"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR>
+<TD ROWSPAN="6">1100 - 1200</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXXX378G</TD>
+<TD ALIGN="center">XXXXX323K</TD>
+<TD ALIGN="center">XXXXX149A</TD>
+<TD ALIGN="center">XXXXX068K</TD>
+<TD ALIGN="center">XXXX6234</TD>
+<TD ALIGN="center">XXXXX851G</TD>
+<TD ALIGN="center">XXXX0874</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0116-Aug-20224"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR>
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX820H</TD>
+<TD ALIGN="center">XXXXX004H</TD>
+<TD ALIGN="center">XXXXX617A</TD>
+<TD ALIGN="center">XXXX1888</TD>
+<TD ALIGN="center">XXXXX825K</TD>
+<TD ALIGN="center">XXXXX251E</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0215-Aug-20224"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0216-Aug-20224"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR>
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXX5569</TD>
+<TD ALIGN="center">XXXXX001A</TD>
+<TD ALIGN="center">XXXXX717B</TD>
+<TD ALIGN="center">XXXX1407</TD>
+<TD ALIGN="center">XXXXX377H</TD>
+<TD ALIGN="center">XXXX4510</TD>
+<TD ALIGN="center">XXXXX285D</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0316-Aug-20224"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR>
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXXX100D</TD>
+<TD ALIGN="center">XXXXX492K</TD>
+<TD ALIGN="center">XXXXX421H</TD>
+<TD ALIGN="center">XXXXX592B</TD>
+<TD ALIGN="center">XXXXX245G</TD>
+<TD ALIGN="center">XXXXX262F</TD>
+<TD ALIGN="center">XXXXX335G</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0416-Aug-20224"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR>
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXX0421</TD>
+<TD ALIGN="center">XXXXX231B</TD>
+<TD ALIGN="center">XXXXX892C</TD>
+<TD ALIGN="center">XXXXX610G</TD>
+<TD ALIGN="center">XXXXX823F</TD>
+<TD ALIGN="center">XXXX5487</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0515-Aug-20224"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0516-Aug-20224"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR>
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXX6456</TD>
+<TD ALIGN="center">XXXXX270G</TD>
+<TD ALIGN="center">XXXXX670A</TD>
+<TD ALIGN="center">XXXXX600A</TD>
+<TD ALIGN="center">XXXXX588H</TD>
+<TD ALIGN="center">XXXXX211D</TD>
+<TD ALIGN="center">XXXXX838C</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0616-Aug-20224"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ROWSPAN="6">1200 - 1300</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXXX828C</TD>
+<TD ALIGN="center">XXXX7324</TD>
+<TD ALIGN="center">XXXXX320A</TD>
+<TD ALIGN="center">XXXXX690F</TD>
+<TD ALIGN="center">XXXXX261A</TD>
+<TD ALIGN="center">XXXXX764F</TD>
+<TD ALIGN="center">XXXX5740</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0116-Aug-20225"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX443E</TD>
+<TD ALIGN="center">XXXXX956H</TD>
+<TD ALIGN="center">XXXXX541C</TD>
+<TD ALIGN="center">XXXXX794H</TD>
+<TD ALIGN="center">XXXXX613C</TD>
+<TD ALIGN="center">XXXXX110A</TD>
+<TD ALIGN="center">XXXX3400</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0216-Aug-20225"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXXX942J</TD>
+<TD ALIGN="center">XXXXX308B</TD>
+<TD ALIGN="center">XXXXX511C</TD>
+<TD ALIGN="center">XXXX5710</TD>
+<TD ALIGN="center">XXXXX959H</TD>
+<TD ALIGN="center">XXXXX732H</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0315-Aug-20225"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0316-Aug-20225"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXXX024K</TD>
+<TD ALIGN="center">XXXXX775L</TD>
+<TD ALIGN="center">XXXXX301C</TD>
+<TD ALIGN="center">XXXXX575D</TD>
+<TD ALIGN="center">XXXXX273C</TD>
+<TD ALIGN="center">XXXXX421F</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0415-Aug-20225"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0416-Aug-20225"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXXX974A</TD>
+<TD ALIGN="center">XXXXX432C</TD>
+<TD ALIGN="center">XXXXX071J</TD>
+<TD ALIGN="center">XXXXX599J</TD>
+<TD ALIGN="center">XXXXX803B</TD>
+<TD ALIGN="center">XXXXX931H</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0515-Aug-20225"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0516-Aug-20225"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXXX358F</TD>
+<TD ALIGN="center">XXXXX127C</TD>
+<TD ALIGN="center">XXXXX560F</TD>
+<TD ALIGN="center">XXXXX357B</TD>
+<TD ALIGN="center">XXXXX871E</TD>
+<TD ALIGN="center">XXXXX754G</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0615-Aug-20225"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0616-Aug-20225"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR>
+<TD ROWSPAN="6">1300 - 1400</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXX2082</TD>
+<TD ALIGN="center">XXXXX622D</TD>
+<TD ALIGN="center">XXXXX678D</TD>
+<TD ALIGN="center">XXXXX107L</TD>
+<TD ALIGN="center">XXXXX461K</TD>
+<TD ALIGN="center">XXXX2941</TD>
+<TD ALIGN="center">XXXX7854</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0116-Aug-20226"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR>
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX943A</TD>
+<TD ALIGN="center">XXXXX546D</TD>
+<TD ALIGN="center">XXXXX936F</TD>
+<TD ALIGN="center">XXXXX300D</TD>
+<TD ALIGN="center">XXXXX561B</TD>
+<TD ALIGN="center">XXXXX831H</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0215-Aug-20226"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0216-Aug-20226"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR>
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXXX952H</TD>
+<TD ALIGN="center">XXXXX473C</TD>
+<TD ALIGN="center">XXXXX291A</TD>
+<TD ALIGN="center">XXXXX553A</TD>
+<TD ALIGN="center">XXXXX112E</TD>
+<TD ALIGN="center">XXXXX696A</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0315-Aug-20226"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0316-Aug-20226"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR>
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXXX236G</TD>
+<TD ALIGN="center">XXXXX136E</TD>
+<TD ALIGN="center">XXXXX704L</TD>
+<TD ALIGN="center">XXXXX959B</TD>
+<TD ALIGN="center">XXXXX069H</TD>
+<TD ALIGN="center">XXXXX930C</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0415-Aug-20226"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center">XXXX1035</TD>
+</TR>
+<TR>
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXX7109</TD>
+<TD ALIGN="center">XXXXX694J</TD>
+<TD ALIGN="center">XXXXX365E</TD>
+<TD ALIGN="center">XXXXX191E</TD>
+<TD ALIGN="center">XXXXX660K</TD>
+<TD ALIGN="center">XXXX6927</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0515-Aug-20226"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0516-Aug-20226"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR>
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXXX685L</TD>
+<TD ALIGN="center">XXXXX810C</TD>
+<TD ALIGN="center">XXXXX740D</TD>
+<TD ALIGN="center">XXXXX605E</TD>
+<TD ALIGN="center">XXXXX615L</TD>
+<TD ALIGN="center">XXXXX127G</TD>
+<TD ALIGN="center">XXXXX704D</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0616-Aug-20226"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ROWSPAN="6">1400 - 1500</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXXX922H</TD>
+<TD ALIGN="center">XXXXX055L</TD>
+<TD ALIGN="center">XXXXX699D</TD>
+<TD ALIGN="center">XXXXX721K</TD>
+<TD ALIGN="center">XXXXX442A</TD>
+<TD ALIGN="center">XXXX0046</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0115-Aug-20227"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center">XXXXX750D</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX181G</TD>
+<TD ALIGN="center">XXXXX344C</TD>
+<TD ALIGN="center">XXXXX516J</TD>
+<TD ALIGN="center">XXXXX580F</TD>
+<TD ALIGN="center">XXXXX002C</TD>
+<TD ALIGN="center">XXXX8899</TD>
+<TD ALIGN="center">XXXXX449G</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0216-Aug-20227"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXXX630A</TD>
+<TD ALIGN="center">XXXXX929D</TD>
+<TD ALIGN="center">XXXXX748B</TD>
+<TD ALIGN="center">XXXXX094F</TD>
+<TD ALIGN="center">XXXXX542J</TD>
+<TD ALIGN="center">XXXXX956B</TD>
+<TD ALIGN="center">XXXXX832E</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0316-Aug-20227"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="16-Aug-2022 (Tue)"></TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXX6689</TD>
+<TD ALIGN="center">XXXXX006L</TD>
+<TD ALIGN="center">XXXXX014L</TD>
+<TD ALIGN="center">XXXXX600F</TD>
+<TD ALIGN="center">XXXXX560K</TD>
+<TD ALIGN="center">XXXXX879K</TD>
+<TD ALIGN="center" valign="center"><INPUT TYPE="radio" NAME="p_rec" VALUE="1BB2BB0415-Aug-20227"  onclick="this.form.submit();"><IMG SRC="https://wis.ntu.edu.sg/graphics/src/avail1.gif" ALT="15-Aug-2022 (Mon)"></TD>
+<TD ALIGN="center">XXXXX567L</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXXX796A</TD>
+<TD ALIGN="center">XXXXX317F</TD>
+<TD ALIGN="center">XXXXX211E</TD>
+<TD ALIGN="center">XXXXX657B</TD>
+<TD ALIGN="center">XXXXX125J</TD>
+<TD ALIGN="center">XXXXX101J</TD>
+<TD ALIGN="center">XXXXX884C</TD>
+<TD ALIGN="center">XXXXX159C</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXXX771J</TD>
+<TD ALIGN="center">XXXXX983D</TD>
+<TD ALIGN="center">XXXXX270B</TD>
+<TD ALIGN="center">XXXXX606E</TD>
+<TD ALIGN="center">XXXXX218J</TD>
+<TD ALIGN="center">XXXXX602L</TD>
+<TD ALIGN="center">XXXXX052J</TD>
+<TD ALIGN="center">XXXXX951H</TD>
+</TR>
+<TR>
+<TD ROWSPAN="6">1500 - 1600</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXXX641D</TD>
+<TD ALIGN="center">XXXXX050D</TD>
+<TD ALIGN="center">XXXXX242K</TD>
+<TD ALIGN="center">XXXXX201G</TD>
+<TD ALIGN="center">XXXXX885F</TD>
+<TD ALIGN="center">XXXX0158</TD>
+<TD ALIGN="center">XXXXX530A</TD>
+<TD ALIGN="center">XXXXX410G</TD>
+</TR>
+<TR>
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX319F</TD>
+<TD ALIGN="center">XXXXX263L</TD>
+<TD ALIGN="center">XXXXX122H</TD>
+<TD ALIGN="center">XXXXX030E</TD>
+<TD ALIGN="center">XXXXX100H</TD>
+<TD ALIGN="center">XXXXX620K</TD>
+<TD ALIGN="center">XXXXX867C</TD>
+<TD ALIGN="center">XXXXX160K</TD>
+</TR>
+<TR>
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXX0031</TD>
+<TD ALIGN="center">XXXXX347E</TD>
+<TD ALIGN="center">XXXXX234B</TD>
+<TD ALIGN="center">XXXXX221C</TD>
+<TD ALIGN="center">XXXX1839</TD>
+<TD ALIGN="center">XXXXX714C</TD>
+<TD ALIGN="center">XXXXX345K</TD>
+<TD ALIGN="center">XXXX6432</TD>
+</TR>
+<TR>
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXX6428</TD>
+<TD ALIGN="center">XXXXX875K</TD>
+<TD ALIGN="center">XXXXX586L</TD>
+<TD ALIGN="center">XXXXX710K</TD>
+<TD ALIGN="center">XXXXX475B</TD>
+<TD ALIGN="center">XXXXX601L</TD>
+<TD ALIGN="center">XXXXX474K</TD>
+<TD ALIGN="center">XXXXX361L</TD>
+</TR>
+<TR>
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXXX353L</TD>
+<TD ALIGN="center">XXXXX861A</TD>
+<TD ALIGN="center">XXXX4651</TD>
+<TD ALIGN="center">XXXXX633A</TD>
+<TD ALIGN="center">XXXX5835</TD>
+<TD ALIGN="center">XXXXX073D</TD>
+<TD ALIGN="center">XXXX3069</TD>
+<TD ALIGN="center">XXXXX631L</TD>
+</TR>
+<TR>
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXXX241J</TD>
+<TD ALIGN="center">XXXXX574L</TD>
+<TD ALIGN="center">XXXXX151H</TD>
+<TD ALIGN="center">XXXX4901</TD>
+<TD ALIGN="center">XXXXX424L</TD>
+<TD ALIGN="center">XXXXX697H</TD>
+<TD ALIGN="center">XXXXX089D</TD>
+<TD ALIGN="center">XXXX8138</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ROWSPAN="6">1600 - 1700</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXXX486L</TD>
+<TD ALIGN="center">XXXXX569J</TD>
+<TD ALIGN="center">XXXXX905C</TD>
+<TD ALIGN="center">XXXXX424D</TD>
+<TD ALIGN="center">XXXXX021C</TD>
+<TD ALIGN="center">XXXX7188</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX406B</TD>
+<TD ALIGN="center">XXXX6560</TD>
+<TD ALIGN="center">XXXXX024A</TD>
+<TD ALIGN="center">XXXXX561H</TD>
+<TD ALIGN="center">XXXXX409D</TD>
+<TD ALIGN="center">XXXXX218D</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXX4930</TD>
+<TD ALIGN="center">XXXXX602E</TD>
+<TD ALIGN="center">XXXXX860H</TD>
+<TD ALIGN="center">XXXXX992J</TD>
+<TD ALIGN="center">XXXXX601K</TD>
+<TD ALIGN="center">XXXXX046G</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXXX734J</TD>
+<TD ALIGN="center">XXXXX950A</TD>
+<TD ALIGN="center">XXXXX180A</TD>
+<TD ALIGN="center">XXXXX611D</TD>
+<TD ALIGN="center">XXXXX347D</TD>
+<TD ALIGN="center">XXXXX989C</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXX0964</TD>
+<TD ALIGN="center">XXXXX630G</TD>
+<TD ALIGN="center">XXXXX644B</TD>
+<TD ALIGN="center">XXXXX161J</TD>
+<TD ALIGN="center">XXXX4335</TD>
+<TD ALIGN="center">XXXXX464K</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXX3751</TD>
+<TD ALIGN="center">XXXXX451A</TD>
+<TD ALIGN="center">XXXXX737D</TD>
+<TD ALIGN="center">XXXX4749</TD>
+<TD ALIGN="center">XXXXX530D</TD>
+<TD ALIGN="center">XXXX2451</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ROWSPAN="6">1700 - 1800</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXX0902</TD>
+<TD ALIGN="center">XXXXX556E</TD>
+<TD ALIGN="center">XXXXX208F</TD>
+<TD ALIGN="center">XXXXX833F</TD>
+<TD ALIGN="center">XXXX0157</TD>
+<TD ALIGN="center">XXXXX851D</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX410G</TD>
+<TD ALIGN="center">XXXX5321</TD>
+<TD ALIGN="center">XXXX1531</TD>
+<TD ALIGN="center">XXXXX868K</TD>
+<TD ALIGN="center">XXXXX941H</TD>
+<TD ALIGN="center">XXXXX441K</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXXX924C</TD>
+<TD ALIGN="center">XXXX1877</TD>
+<TD ALIGN="center">XXXXX062D</TD>
+<TD ALIGN="center">XXXXX583L</TD>
+<TD ALIGN="center">XXXX1419</TD>
+<TD ALIGN="center">XXXXX852L</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXXX293K</TD>
+<TD ALIGN="center">XXXXX923H</TD>
+<TD ALIGN="center">XXXX3678</TD>
+<TD ALIGN="center">XXXX7358</TD>
+<TD ALIGN="center">XXXX4377</TD>
+<TD ALIGN="center">XXXXX170E</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXXX933A</TD>
+<TD ALIGN="center">XXXXX310D</TD>
+<TD ALIGN="center">XXXXX337G</TD>
+<TD ALIGN="center">XXXXX606L</TD>
+<TD ALIGN="center">XXXX1294</TD>
+<TD ALIGN="center">XXXXX816A</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXXX207L</TD>
+<TD ALIGN="center">XXXXX610L</TD>
+<TD ALIGN="center">XXXXX812H</TD>
+<TD ALIGN="center">XXXXX953K</TD>
+<TD ALIGN="center">XXXX4924</TD>
+<TD ALIGN="center">XXXX5997</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ROWSPAN="6">1800 - 1900</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXX1706</TD>
+<TD ALIGN="center">XXXXX051K</TD>
+<TD ALIGN="center">XXXX1279</TD>
+<TD ALIGN="center">XXXX0116</TD>
+<TD ALIGN="center">XXXX0234</TD>
+<TD ALIGN="center">XXXXX747A</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX954A</TD>
+<TD ALIGN="center">XXXXX660A</TD>
+<TD ALIGN="center">XXXX6709</TD>
+<TD ALIGN="center">XXXXX571H</TD>
+<TD ALIGN="center">XXXX3789</TD>
+<TD ALIGN="center">XXXXX149E</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXXX184H</TD>
+<TD ALIGN="center">XXXXX212B</TD>
+<TD ALIGN="center">XXXXX973L</TD>
+<TD ALIGN="center">XXXXX419F</TD>
+<TD ALIGN="center">XXXX4213</TD>
+<TD ALIGN="center">XXXXX649L</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXXX322L</TD>
+<TD ALIGN="center">XXXXX410D</TD>
+<TD ALIGN="center">XXXX0107</TD>
+<TD ALIGN="center">XXXXX585D</TD>
+<TD ALIGN="center">XXXX1509</TD>
+<TD ALIGN="center">XXXXX330A</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXXX769B</TD>
+<TD ALIGN="center">CREW</TD>
+<TD ALIGN="center">CREW</TD>
+<TD ALIGN="center">XXXXX024A</TD>
+<TD ALIGN="center">XXXX4445</TD>
+<TD ALIGN="center">XXXX5184</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXXX324B</TD>
+<TD ALIGN="center">CREW</TD>
+<TD ALIGN="center">CREW</TD>
+<TD ALIGN="center">XXXXX439E</TD>
+<TD ALIGN="center">XXXXX701F</TD>
+<TD ALIGN="center">XXXXX323A</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ROWSPAN="6">1900 - 2000</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXXX651K</TD>
+<TD ALIGN="center">XXXX0338</TD>
+<TD ALIGN="center">XXXX0396</TD>
+<TD ALIGN="center">XXXX0175</TD>
+<TD ALIGN="center">XXXX5035</TD>
+<TD ALIGN="center">XXXXX597J</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXX0872</TD>
+<TD ALIGN="center">XXXXX605E</TD>
+<TD ALIGN="center">XXXX3772</TD>
+<TD ALIGN="center">XXXXX238D</TD>
+<TD ALIGN="center">XXXXX573J</TD>
+<TD ALIGN="center">XXXXX402H</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXX2988</TD>
+<TD ALIGN="center">XXXX5361</TD>
+<TD ALIGN="center">XXXX2331</TD>
+<TD ALIGN="center">XXXX1623</TD>
+<TD ALIGN="center">XXXX1950</TD>
+<TD ALIGN="center">XXXXX865L</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXX4589</TD>
+<TD ALIGN="center">XXXXX482H</TD>
+<TD ALIGN="center">XXXXX461H</TD>
+<TD ALIGN="center">XXXXX447C</TD>
+<TD ALIGN="center">XXXXX009A</TD>
+<TD ALIGN="center">XXXXX245D</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXXX245J</TD>
+<TD ALIGN="center">CREW</TD>
+<TD ALIGN="center">CREW</TD>
+<TD ALIGN="center">XXXXX055J</TD>
+<TD ALIGN="center">XXXX5180</TD>
+<TD ALIGN="center">XXXX1872</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXXX951H</TD>
+<TD ALIGN="center">CREW</TD>
+<TD ALIGN="center">CREW</TD>
+<TD ALIGN="center">XXXXX278L</TD>
+<TD ALIGN="center">XXXXX076E</TD>
+<TD ALIGN="center">XXXXX367G</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ROWSPAN="6">2000 - 2100</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXXX519D</TD>
+<TD ALIGN="center">XXXXX070B</TD>
+<TD ALIGN="center">XXXX1969</TD>
+<TD ALIGN="center">XXXXX519F</TD>
+<TD ALIGN="center">XXXX0811</TD>
+<TD ALIGN="center">XXXXX561G</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX143E</TD>
+<TD ALIGN="center">XXXX0212</TD>
+<TD ALIGN="center">XXXX6216</TD>
+<TD ALIGN="center">XXXXX631D</TD>
+<TD ALIGN="center">XXXXX564J</TD>
+<TD ALIGN="center">XXXX4564</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXX3620</TD>
+<TD ALIGN="center">XXXXX722C</TD>
+<TD ALIGN="center">XXXX2331</TD>
+<TD ALIGN="center">XXXX1081</TD>
+<TD ALIGN="center">XXXX3586</TD>
+<TD ALIGN="center">XXXXX815C</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXX3631</TD>
+<TD ALIGN="center">XXXX4662</TD>
+<TD ALIGN="center">XXXXX714F</TD>
+<TD ALIGN="center">XXXX4253</TD>
+<TD ALIGN="center">XXXX5353</TD>
+<TD ALIGN="center">XXXX5660</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXXX570H</TD>
+<TD ALIGN="center">XXXXX331L</TD>
+<TD ALIGN="center">XXXXX463A</TD>
+<TD ALIGN="center">XXXX8936</TD>
+<TD ALIGN="center">XXXX5615</TD>
+<TD ALIGN="center">XXXXX500D</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR bgcolor="PINK">
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXXX348L</TD>
+<TD ALIGN="center">XXXXX380E</TD>
+<TD ALIGN="center">XXXXX321A</TD>
+<TD ALIGN="center">XXXX3764</TD>
+<TD ALIGN="center">XXXXX058C</TD>
+<TD ALIGN="center">XXXXX138E</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ROWSPAN="6">2100 - 2200</TD>
+<TD ALIGN="center">01</TD>
+<TD ALIGN="center">XXXXX724G</TD>
+<TD ALIGN="center">XXXX0762</TD>
+<TD ALIGN="center">XXXX2181</TD>
+<TD ALIGN="center">XXXX3731</TD>
+<TD ALIGN="center">XXXXX622C</TD>
+<TD ALIGN="center">XXXXX835L</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">02</TD>
+<TD ALIGN="center">XXXXX867F</TD>
+<TD ALIGN="center">XXXX4461</TD>
+<TD ALIGN="center">XXXXX563D</TD>
+<TD ALIGN="center">XXXXX777L</TD>
+<TD ALIGN="center">XXXXX399J</TD>
+<TD ALIGN="center">XXXX1256</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">03</TD>
+<TD ALIGN="center">XXXXX919L</TD>
+<TD ALIGN="center">XXXX6164</TD>
+<TD ALIGN="center">XXXXX430F</TD>
+<TD ALIGN="center">XXXXX750D</TD>
+<TD ALIGN="center">XXXXX456B</TD>
+<TD ALIGN="center">XXXXX821C</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">04</TD>
+<TD ALIGN="center">XXXX8362</TD>
+<TD ALIGN="center">XXXXX610H</TD>
+<TD ALIGN="center">XXXX4322</TD>
+<TD ALIGN="center">XXXXX425A</TD>
+<TD ALIGN="center">XXXXX237L</TD>
+<TD ALIGN="center">XXXXX006H</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">05</TD>
+<TD ALIGN="center">XXXX4790</TD>
+<TD ALIGN="center">XXXXX760G</TD>
+<TD ALIGN="center">XXXX3276</TD>
+<TD ALIGN="center">XXXXX956A</TD>
+<TD ALIGN="center">XXXXX023B</TD>
+<TD ALIGN="center">XXXXX106D</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+<TR>
+<TD ALIGN="center">06</TD>
+<TD ALIGN="center">XXXXX330B</TD>
+<TD ALIGN="center">XXXXX072L</TD>
+<TD ALIGN="center">XXXXX010D</TD>
+<TD ALIGN="center">XXXX6714</TD>
+<TD ALIGN="center">XXXX7948</TD>
+<TD ALIGN="center">XXXXX134D</TD>
+<TD ALIGN="center">BANYANHALL</TD>
+<TD ALIGN="center">BINJAIHALL</TD>
+</TR>
+</TABLE>
+<INPUT TYPE="hidden" NAME="p1" VALUE="U2022690F">
+<INPUT TYPE="hidden" NAME="p2" VALUE="">
+<INPUT TYPE="hidden" NAME="p_rec" VALUE="">
+<INPUT TYPE="hidden" NAME="p_info" VALUE="1BB26">
+</form>
+</td></tr></table>
+ </p>         </div>
+          <!-- End: Test Content-->
+        </div>
+      </section>
+      <!-- End: Container Landing Single-->
+      <!-- Layout: Full container-->
+
+     
+
+      <!-- End: Container Landing Single-->
+
+      <!-- End Layout: Full container-->
+    </div>
+  </div>
+<footer class="site-footer"><a class="btn btn-scroll-top btn--grey" href="#top"><span class="label">To Top</span><span class="icon icon-arrow-up"></span></a>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="sf_colsIn col-md-3 col-sm-6" id="Footer_TD41B707D001_Col00" data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+          <div>
+
+            <div>
+
+              <div class="site-footer__contact">
+
+                <address>Nanyang Technological University<br>50 Nanyang Avenue, Singapore 639798<br>Tel: (65) 67911744</address>
+
+                <address>Novena Campus<br>11 Mandalay Road, Singapore 308232<br>Tel: (65) 65138572</address>
+
+              </div>
+
+<small>(c) 2020 Nanyang Technological University</small>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="sf_colsIn col-md-4 col-sm-6" id="Footer_TD41B707D001_Col01" data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+          <div class="rte">
+
+              <h3>Contact Us</h3>
+
+          </div>
+
+ 
+
+          <div class="site-footer__nav">
+
+<p><strong>Please raise a ticket via:</strong></p>
+
+           <nav>
+
+              <ul class="nav flex-column">
+
+ 
+
+           <li class="nav-item"><a class="nav-link" href="https://ntuadminonestop.service-now.com/ntussp" target="blank">One Stop @ SAC</a> for Students</li>
+
+           <li class="nav-item"><a class="nav-link" href="https://servicenowatntu.ntu.edu.sg" target="blank">ServiceNow@NTU</a> for Staff</li>
+
+           <li class="nav-item"><a class="nav-link" href="https://www.ntu.edu.sg/life-at-ntu/internet-account-and-policy/service-desk-form" target="blank">Service Desk Form</a> for NTU Alumni/Public</li>
+
+              </ul>
+
+</nav>
+
+ 
+
+          </div>
+
+        </div>
+
+       
+
+        <div class="sf_colsIn col-md-4 col-sm-6" id="Footer_TD41B707D001_Col03" data-sf-element="Column 4" data-placeholder-label="Column 4">
+
+ 
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+</BODY></HTML>
