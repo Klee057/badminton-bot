@@ -5,20 +5,20 @@ Bot is designed to book only Badminton Courts from Ntu sports booking facillites
 # Instructions
 Badminton court booking bot
 
-0. Move contents of zip file to your account folder (C:\Users\USERNAME) and unzip the folder.
+1. Move contents of zip file to your account folder (C:\Users\USERNAME) and unzip the folder.
 	Note: Make sure not to change the name of any file
 
-1. Download Nodejs from https://nodejs.org/en/download/
+2. Download Nodejs from https://nodejs.org/en/download/
 	0.1. install on windows, and just follow the steps. Note: if they ask to download other things like Chocolatey just ignore.
 
-2. Run "run this once".
+3. Run "run this once".
 	Note: You will need to run this only once if no errors are shown
 
-3. Open the CHANGE_HERE file and input your credentials
+4. Open the CHANGE_HERE file and input your credentials
 	Note: If format is accidentally changed, copy paste content from "default" file.
 	Note: Dont worry bot is not designed to steal ur credentials. 
 		
-4. You may Run 'script' at anytime 1 min before desired time (eg run at 2359 if desired time is 0000)
+5. You may Run 'script' at anytime 1 min before desired time (eg run at 2359 if desired time is 0000)
 
 
 Disclaimer: Time it takes for the webpage to load still varies on each request. And it depends on the traffic during loading time.
